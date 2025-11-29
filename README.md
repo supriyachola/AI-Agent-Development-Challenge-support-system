@@ -2,6 +2,8 @@
 
 A modern, voice-enabled, category-based FAQ Assistant for Sales, Marketing & Support teams.
 Built using Streamlit, with fuzzy matching, escalation logging, analytics, and a clean UI.
+## 
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/d8f52049-8723-42f6-af76-005d8fc09f4c" />
 
 ## 🚀 Features
 🔍 Smart FAQ Search
@@ -75,6 +77,5 @@ streamlit run streamlit_app.py
 Your FAQ entries live here:
 
 data/faq.json
-## OUTPUT
-<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/d8f52049-8723-42f6-af76-005d8fc09f4c" />
+
 
