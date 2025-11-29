@@ -75,3 +75,6 @@ streamlit run streamlit_app.py
 Your FAQ entries live here:
 
 data/faq.json
+## OUTPUT
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/d8f52049-8723-42f6-af76-005d8fc09f4c" />
+
