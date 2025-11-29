@@ -1,0 +1,137 @@
+[
+  {
+    "question": "What does this system do?",
+    "answer": "This system acts as an intelligent assistant that helps users find answers using AI and predefined FAQs. It identifies the closest matching question, provides instant replies, and falls back to AI when no match is found. The platform also supports voice input, suggestion buttons, and category-based browsing for ease of use. Overall, it reduces support workload and improves customer satisfaction.",
+    "tags": ["general", "system", "overview"]
+  },
+  {
+    "question": "How can I contact customer support?",
+    "answer": "You can reach our support team through email, live chat, or phone depending on your subscription level. Response times vary from minutes to a few hours, based on the urgency of your issue. You may also attach screenshots or files to help the team diagnose problems faster. Critical issues can be escalated manually or automatically by the system.",
+    "tags": ["support", "contact"]
+  },
+  {
+    "question": "What is your company mission?",
+    "answer": "Our mission is to build intelligent systems that improve support efficiency and reduce operational burden. We focus on automation, accuracy, and user experience to help organizations scale effortlessly. The platform continuously evolves with new capabilities to help teams work smarter and deliver better service. Our vision is to create seamless, human-like assistance powered by AI.",
+    "tags": ["general", "mission"]
+  },
+  {
+    "question": "Do you offer discounts for enterprise customers?",
+    "answer": "Yes, we provide custom pricing for teams with larger user counts or special integration needs. Discounts increase based on annual commitments, user volume, and automation requirements. Our sales department will prepare a personalized quote based on your goals. Enterprise plans also include dedicated support and onboarding assistance.",
+    "tags": ["sales", "pricing", "enterprise"]
+  },
+  {
+    "question": "How can I request a product demo?",
+    "answer": "You can book a product demo from our website via the 'Request Demo' option. A sales specialist will contact you to choose a preferred time slot. During the demo, we walk you through all major features, integrations, and use cases. This helps you evaluate how the platform can support your business processes.",
+    "tags": ["sales", "demo"]
+  },
+  {
+    "question": "How can your product help improve marketing performance?",
+    "answer": "The system analyzes customer questions and engagement patterns to uncover marketing opportunities. These insights help you understand customer needs and craft more effective campaigns. Automated FAQ support reduces friction during decision-making, leading to higher conversions. You can also use built-in analytics to refine messaging and track performance over time.",
+    "tags": ["marketing", "analytics"]
+  },
+  {
+    "question": "Do you provide tools for lead generation?",
+    "answer": "Yes, the platform includes automated lead capture, qualification, and routing mechanisms. AI identifies high-intent users based on behavior such as repeated visits, chat interactions, and content engagement. These insights help sales teams prioritize the strongest opportunities. Integrations with CRM tools ensure seamless workflow automation.",
+    "tags": ["marketing", "sales"]
+  },
+  {
+    "question": "Can I track customer engagement?",
+    "answer": "Yes, you can track clicks, query patterns, FAQ usage, and conversion metrics through our analytics dashboard. These insights help you identify customer interests and optimize your campaigns. Over time, engagement data reveals trends that can guide content improvements. You can also export this data or sync it with your internal analytics tools.",
+    "tags": ["marketing", "analytics"]
+  },
+  {
+    "question": "How do I reset my password?",
+    "answer": "To reset your password, click the 'Forgot Password' option on the login page. You will receive an email with a secure reset link. Follow the instructions to set a new password within the allowed timeframe. If you encounter issues, support can manually assist with account verification.",
+    "tags": ["support", "account"]
+  },
+  {
+    "question": "How do I update my email address?",
+    "answer": "You can update your email under Account Settings → Email section. A verification link will be sent to your new email to confirm ownership. This ensures that only authorized users can access your account. If verification fails, reach out to our support team for assistance.",
+    "tags": ["support", "account"]
+  },
+  {
+    "question": "How can I escalate a complex issue?",
+    "answer": "Escalation is available for issues that cannot be resolved through standard troubleshooting. When an escalation is submitted, senior support agents review your request and respond with priority. Adding screenshots and detailed steps helps shorten resolution time. You may also track escalation status from your dashboard.",
+    "tags": ["support", "escalation"]
+  },
+  {
+    "question": "Why is the app not loading?",
+    "answer": "The app may fail to load due to slow internet, outdated browser versions, or temporary server outages. Refreshing the page or switching browsers often resolves the issue. Clearing your cache also helps fix corrupted sessions. If the problem persists, provide logs or screenshots to support for deeper investigation.",
+    "tags": ["technical", "app"]
+  },
+  {
+    "question": "Why am I seeing a network error?",
+    "answer": "Network errors typically occur due to unstable connectivity or firewall restrictions. Restarting your router or switching to a different network can help identify the cause. Corporate networks sometimes block API calls required by the app. If errors continue, send the error code to support for additional checks.",
+    "tags": ["technical", "network"]
+  },
+  {
+    "question": "Does this system work offline?",
+    "answer": "Only limited features work offline because the platform relies on cloud services. Cached FAQs may load temporarily, but AI answers require internet connectivity. For businesses needing offline capability, we offer localized modules upon request. Contact support to discuss offline deployment options.",
+    "tags": ["technical", "offline"]
+  },
+  {
+    "question": "What is your refund policy?",
+    "answer": "Refunds may be requested within seven days of purchase for eligible plans. Once approved, refunds are processed to the original payment method within 3–5 business days. If technical issues prevented platform use, such requests are prioritized. Supporting details may be required to complete the process.",
+    "tags": ["billing", "refund"]
+  },
+  {
+    "question": "Why was my payment declined?",
+    "answer": "Payments may fail due to incorrect card details, insufficient funds, or bank restrictions. Some banks block subscription-based or international transactions for security reasons. Double-check your billing information and retry the transaction. If the problem continues, use an alternative method or contact your bank for clearance.",
+    "tags": ["billing", "payment"]
+  },
+  {
+    "question": "Do you support subscription upgrades and downgrades?",
+    "answer": "Yes, you may change your subscription plan anytime via the billing dashboard. Upgrades take effect immediately, granting instant access to additional features. Downgrades take effect at the next billing cycle to avoid disruption. Our team can advise you on selecting the most efficient plan for your needs.",
+    "tags": ["billing", "subscription"]
+  },
+  {
+    "question": "Does your platform integrate with CRM systems?",
+    "answer": "Yes, we integrate with Salesforce, HubSpot, Zoho, Freshsales, and other CRM platforms. Integration takes only a few minutes and keeps your data synchronized in real time. This ensures your sales and support teams always have updated customer insights. Detailed integration guides are available in the help center.",
+    "tags": ["integration", "crm"]
+  },
+  {
+    "question": "Do you provide custom AI workflows?",
+    "answer": "Yes, users can create custom workflows using our drag-and-drop automation builder. You can automate routing, follow-ups, reminders, and multi-step actions without coding. Advanced users can integrate external APIs for richer automation. Enterprise clients can request specialized workflow development.",
+    "tags": ["automation", "support"]
+  },
+  {
+    "question": "Do you support bulk email marketing?",
+    "answer": "Yes, our email tools let you send newsletters, promotions, and automated sequences to targeted audiences. Built-in analytics reveal how your audience interacts with your emails. AI helps you optimize subject lines, delivery times, and segmentation. This leads to improved open rates and stronger engagement.",
+    "tags": ["marketing", "email"]
+  },
+  {
+    "question": "How do I track customer interactions?",
+    "answer": "All customer chats, emails, and interactions are automatically logged within the platform. You can view detailed conversation history, sentiment analysis, and behavior indicators in one place. These insights help your team respond more effectively. You can also export the logs for reporting or analysis.",
+    "tags": ["support", "tracking"]
+  },
+  {
+    "question": "Do you provide onboarding support?",
+    "answer": "Yes, new users receive onboarding assistance with setup, integrations, and workflow configuration. Our team provides video tutorials, live walkthroughs, and documentation. Most users become fully operational within 48 hours. Enterprise clients receive dedicated onboarding sessions.",
+    "tags": ["support", "onboarding"]
+  },
+  {
+    "question": "Is customer support available 24/7?",
+    "answer": "Our AI assistant is available 24/7 to respond instantly to common questions. Human agents are available during extended business hours depending on your plan. Enterprise users receive priority support with faster SLAs. For after-hours support, you may submit tickets that will be reviewed at the earliest.",
+    "tags": ["support", "general"]
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept major credit cards, debit cards, UPI, PayPal, and bank transfers depending on region. All transactions are processed through secure and PCI-compliant gateways. You can save multiple payment methods for convenience. Corporate invoicing is available for enterprise plans.",
+    "tags": ["billing", "payment"]
+  },
+  {
+    "question": "Can your system automate follow-up messages?",
+    "answer": "Yes, the platform lets you automate follow-up sequences for leads, support tickets, and campaigns. AI analyzes user behavior to determine the best timing and message content. These automated workflows significantly increase conversions and reduce manual effort. You can track performance through detailed analytics.",
+    "tags": ["automation", "sales"]
+  },
+  {
+    "question": "How secure is my data with your platform?",
+    "answer": "We prioritize data security with end-to-end encryption, regular audits, and compliance with GDPR and CCPA. User data is stored in secure data centers with multi-layered protection. Access controls and role-based permissions ensure only authorized personnel can view sensitive information. We also conduct regular vulnerability assessments to maintain high security standards.",
+    "tags": ["security", "data"]
+  },
+  {
+    "question": "Do you offer multi-language support?",
+    "answer": "Yes, our platform supports multiple languages for both the user interface and AI responses. You can configure language preferences based on your target audience. This helps provide a localized experience for global users. We continuously add new languages based on demand.",
+    "tags": ["general", "language"]
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "question": "What does this system do?",
+    "answer": "This platform provides automated customer support: it looks up answers from a curated FAQ database and uses an on-device LLM fallback to generate helpful replies when an exact match is not available. Use it to quickly resolve common questions, find procedures, and get troubleshooting steps.",
+    "tags": ["general","system"]
+  },
+  {
+    "question": "How can I contact support?",
+    "answer": "For fastest help, open a support ticket at https://support.example.com or email support@example.com (include your account email, a short description, and any error messages). For urgent billing issues call +1-800-555-1212 (available 9AM–6PM local time).",
+    "tags": ["general","support"]
+  },
+  {
+    "question": "What is your mission?",
+    "answer": "Our mission is to simplify and speed up customer support by combining a carefully curated knowledge base with AI-generated assistance so users solve problems faster and support teams focus on complex cases.",
+    "tags": ["general","mission"]
+  },
+  {
+    "question": "How do I reset my password?",
+    "answer": "1) Go to the login page and click 'Forgot Password'. 2) Enter your registered email. 3) Check your email for a reset link (check spam). 4) Follow the link and set a new password meeting the minimum requirements (8 characters, including a number). If you don't receive the email, contact support@example.com.",
+    "tags": ["account","password"]
+  },
+  {
+    "question": "How do I change my account email?",
+    "answer": "To change your email: Settings → Profile → Email → Edit. You will be asked to verify the new address (click verification link). If you cannot access the old address to verify, contact support and provide ID proof as described at https://support.example.com/email-change-policy.",
+    "tags": ["account","email"]
+  },
+  {
+    "question": "I forgot my username. What should I do?",
+    "answer": "If you forgot your username, use 'Forgot Username' on the login page and enter your registered email. We'll email your username. If that fails, open a support ticket with the email used for registration and approximate account creation date.",
+    "tags": ["account","username"]
+  },
+  {
+    "question": "What is the refund policy?",
+    "answer": "You can request a full refund within 7 days of purchase if you haven't used premium features beyond the trial limits. Partial refunds may be available within 30 days for billing errors. To request a refund: Billing → Requests → New Refund Request, or email billing@example.com with your order ID.",
+    "tags": ["billing","refund"]
+  },
+  {
+    "question": "Do you offer EMI or installment plans?",
+    "answer": "We currently offer installment plans for annual subscriptions in select countries. To check eligibility, go to Billing → Payment Options or contact billing@example.com. Availability depends on region and payment provider.",
+    "tags": ["billing","emi"]
+  },
+  {
+    "question": "Why was my payment declined?",
+    "answer": "Common reasons: incorrect card number, expired card, insufficient funds, or the bank blocked the transaction. Steps: 1) Verify card info. 2) Try another card or payment method (PayPal). 3) Contact your bank to allow the merchant. If the issue persists, contact billing@example.com with the transaction ID.",
+    "tags": ["billing","payment"]
+  },
+  {
+    "question": "The app is not opening. What should I do?",
+    "answer": "Quick checklist: 1) Restart the device. 2) Update the app to the latest version. 3) Clear app cache (Settings → Apps → Clear cache). 4) Ensure you have internet access. If error persists, send a screenshot and device model to support@example.com.",
+    "tags": ["technical","app"]
+  },
+  {
+    "question": "Why am I seeing a network error?",
+    "answer": "A network error usually indicates connectivity problems. 1) Verify Wi-Fi or cellular data is on. 2) Try another website to confirm internet. 3) Restart router/device. 4) If you are on a corporate VPN or firewall, try from a different network or contact your IT team.",
+    "tags": ["technical","network"]
+  },
+  {
+    "question": "Does this app work offline?",
+    "answer": "Some features (viewing previously cached content) work offline, but most functionality requires an internet connection. Offline availability depends on the feature—check the specific feature page for details.",
+    "tags": ["technical","offline"]
+  },
+  {
+    "question": "How do I upload a file?",
+    "answer": "Navigate to the Upload section, click 'Select File' (or drag-and-drop), choose a supported file (PDF, DOCX, PNG), and click 'Upload'. Files larger than 50MB may take longer — consider compressing large files. You'll see a confirmation when upload completes.",
+    "tags": ["usage","upload"]
+  },
+  {
+    "question": "How do I schedule a task or meeting?",
+    "answer": "Go to Scheduler → New Task. Enter title, date/time, timezone, and reminders. For meetings integrated with Google Calendar, authorize your Google account (Settings → Integrations → Google Calendar). Confirm participants and save.",
+    "tags": ["usage","task"]
+  },
+  {
+    "question": "How do I generate a report?",
+    "answer": "Open Reports → Select report type (Usage/Summary/Activity) → Choose date range → Click 'Generate'. For customized reports use 'Advanced' filters and export as CSV or PDF. If you need a scheduled recurring report, use 'Schedule Report' options.",
+    "tags": ["usage","report"]
+  },
+  {
+    "question": "How do you store user data?",
+    "answer": "We store user data encrypted at rest and in transit (TLS). Sensitive fields are hashed or encrypted. Access controls and audit logs limit who can view production data. See our full Data Security page at https://example.com/security for details.",
+    "tags": ["policy","data"]
+  },
+  {
+    "question": "What is your privacy policy?",
+    "answer": "We collect only necessary data to provide the service, do not sell personal data, and allow you to request deletion or export of your data. Read the full policy at https://example.com/privacy.",
+    "tags": ["policy","privacy"]
+  },
+  {
+    "question": "Is my data shared with third parties?",
+    "answer": "We do not share personal data with third parties for marketing. We may share data with trusted service providers (payment processors, hosting) under contract and limited purposes. Any sharing is documented in our privacy policy.",
+    "tags": ["policy","data"]
+  },
+  {
+    "question": "I can't log in. What should I do?",
+    "answer": "1) Check your email and password. 2) Reset your password via 'Forgot Password'. 3) If you use SSO, ensure your identity provider is accessible. 4) If none work, contact support with your account email and a screenshot of the error.",
+    "tags": ["troubleshooting","login"]
+  },
+  {
+    "question": "My notifications are not working. How do I fix them?",
+    "answer": "1) Check app notification settings and device settings (allow notifications). 2) Ensure background data is enabled and battery saver is off for the app. 3) Log out and log back in. If push tokens are stale, reinstall the app.",
+    "tags": ["troubleshooting","notifications"]
+  },
+  {
+    "question": "How can I delete my account?",
+    "answer": "To delete your account: Settings → Account → Delete Account. You will be asked to confirm and provide your password. Account deletion is permanent and removes personal data per our retention policy. Contact support if you need an export before deletion.",
+    "tags": ["account","delete"]
+  },
+  {
+    "question": "How long does verification take?",
+    "answer": "Email verification happens instantly; account verification (identity checks) typically takes 2–48 hours depending on the documentation provided. We will notify you by email when verification completes.",
+    "tags": ["account","verification"]
+  },
+  {
+    "question": "Do you support dark mode?",
+    "answer": "Yes. Enable dark mode in Settings → Appearance. The UI will switch immediately; some legacy pages may require a refresh.",
+    "tags": ["general","ui"]
+  },
+  {
+    "question": "Can I use the system on multiple devices?",
+    "answer": "Yes — log in with the same account on multiple devices. For security, we recommend enabling two-factor authentication to protect simultaneous access.",
+    "tags": ["usage","devices"]
+  },
+  {
+    "question": "Do you offer customer onboarding or training?",
+    "answer": "Yes — we provide onboarding guides, recorded webinars, and a dedicated onboarding team for enterprise customers. Contact onboarding@example.com to schedule a session.",
+    "tags": ["general","onboarding"]
+  },
+  {
+    "question": "Is customer support available 24/7?",
+    "answer": "AI-backed support is available 24/7. Human support is available during business hours (9AM–6PM local). For enterprise customers there is priority support — see your SLA for details.",
+    "tags": ["general","support"]
+  },
+  {
+    "question": "How do I update the app?",
+    "answer": "On mobile: open the App Store / Play Store → My apps → Update. On web: we deploy updates automatically; refresh your browser to get the latest version.",
+    "tags": ["technical","update"]
+  },
+  {
+    "question": "How do I change my subscription or billing plan?",
+    "answer": "Billing → Subscription → Change Plan. You can upgrade or downgrade from there. For prorated charges or refunds, contact billing@example.com with your account details.",
+    "tags": ["billing","subscription"]
+  },
+  {
+    "question": "What browsers and platforms are supported?",
+    "answer": "We support the latest stable versions of Chrome, Edge, Firefox, and Safari on desktop. For mobile, iOS 14+ and Android 9+ are supported. If you notice issues, please provide browser version and a screenshot.",
+    "tags": ["technical","browser"]
+  },
+  {
+    "question": "How do I report a bug or request a feature?",
+    "answer": "Submit bugs or feature requests at https://feedback.example.com. For bugs, include steps to reproduce, expected vs actual behavior, screenshots, and environment (browser/device). This helps us investigate faster.",
+    "tags": ["general","feedback"]
+  },
+  {
+    "question": "How can I export my data or reports?",
+    "answer": "Most report pages include an Export button (CSV or PDF). For a full data export, request it from Settings → Data → Export or contact privacy@example.com; exports are provided in standard CSV/JSON formats.",
+    "tags": ["usage","export"]
+  },
+  {
+    "question": "How secure is my data with your platform?",
+    "answer": "We prioritize data security with end-to-end encryption, regular audits, and compliance with GDPR and CCPA. User data is stored in secure data centers with multi-layered protection. Access controls and role-based permissions ensure only authorized personnel can view sensitive information. We also conduct regular vulnerability assessments to maintain high security standards.",
+    "tags": ["security", "data"]
+  },
+    {
+        "question": "Do you offer multi-language support?",
+        "answer": "Yes, our platform supports multiple languages for both the user interface and AI responses. You can configure language preferences based on your target audience. This helps provide a localized experience for global users. We continuously add new languages based on demand.",
+        "tags": ["general", "language"]
+    },
+{
+    "question": "Can your system automate follow-up messages?",
+    "answer": "Yes, the platform lets you automate follow-up sequences for leads, support tickets, and campaigns. AI analyzes user behavior to determine the best timing and message content. These automated workflows significantly increase conversions and reduce manual effort. You can track performance through detailed analytics.",
+    "tags": ["automation", "sales"]
+},
+{
+    "question": "How secure is my data with your platform?",
+    "answer": "We prioritize data security with end-to-end encryption, regular audits, and compliance with GDPR and CCPA. User data is stored in secure data centers with multi-layered protection. Access controls and role-based permissions ensure only authorized personnel can view sensitive information. We also conduct regular vulnerability assessments to maintain high security standards.",
+    "tags": ["security", "data"]
+},
+{
+    "question": "Do you offer multi-language support?",
+    "answer": "Yes, our platform supports multiple languages for both the user interface and AI responses. You can configure language preferences based on your target audience. This helps provide a localized experience for global users. We continuously add new languages based on demand.",
+    "tags": ["general", "language"]
+  },
+{
+    "question": "Can your system automate follow-up messages?",
+    "answer": "Yes, the platform lets you automate follow-up sequences for leads, support tickets, and campaigns. AI analyzes user behavior to determine the best timing and message content. These automated workflows significantly increase conversions and reduce manual effort. You can track performance through detailed analytics.",
+    "tags": ["automation", "sales"]
+},
+{
+    "question": "How secure is my data with your platform?",
+    "answer": "We prioritize data security with end-to-end encryption, regular audits, and compliance with GDPR and CCPA. User data is stored in secure data centers with multi-layered protection. Access controls and role-based permissions ensure only authorized personnel can view sensitive information. We also conduct regular vulnerability assessments to maintain high security standards.",
+    "tags": ["security", "data"]
+},
+{
+    "question": "Do you offer multi-language support?",
+    "answer": "Yes, our platform supports multiple languages for both the user interface and AI responses. You can configure language preferences based on your target audience. This helps provide a localized experience for global users. We continuously add new languages based on demand.",
+    "tags": ["general", "language"]
+  },
+{
+    "question": "What does this system do?",
+    "answer": "This system acts as an intelligent support assistant that helps users find answers quickly. It combines predefined FAQs with AI-powered fallback responses to ensure that every question gets a reply. It also includes helpful tools such as category-based browsing, voice input, and escalation options for complex cases. Overall, it improves customer experience by automating common queries and reducing support workload.",
+    "tags": ["general", "system", "overview"]
+  },
+  {
+    "question": "How can I contact customer support?",
+    "answer": "You can reach customer support through email, phone, or live chat depending on your preference. Our team typically responds within a few hours for general queries and sooner for urgent issues. If your concern requires documentation, you may attach screenshots or files to speed up resolution. For critical problems, we also offer escalation support for faster handling.",
+    "tags": ["support", "general", "contact"]
+  },
+  {
+    "question": "What is your company mission?",
+    "answer": "Our mission is to make customer support more efficient, intelligent, and accessible. We believe in combining automation with thoughtful human assistance to reduce response times and improve satisfaction. By offering tools like AI assistance and streamlined workflows, our goal is to help teams work more productively. We continuously improve our platform to deliver faster and smarter solutions.",
+    "tags": ["general", "mission", "company"]
+  },
+
+  {
+    "question": "Do you offer discounts for bulk or enterprise customers?",
+    "answer": "Yes, we offer tiered pricing models for large teams and enterprise clients. Discounts increase depending on the number of users or the annual plan selected. Our sales team also provides customized quotes for organizations with unique requirements. Contact our sales department to receive a tailored offer based on your usage and goals.",
+    "tags": ["sales", "pricing", "enterprise"]
+  },
+  {
+    "question": "How can I request a product demo?",
+    "answer": "You can book a demo directly from our website using the 'Request Demo' form. A sales representative will contact you to schedule a session at your convenience. During the demo, we walk you through product features, real-world use cases, and integration capabilities. This helps you understand how the platform can support your team’s workflow.",
+    "tags": ["sales", "demo", "product"]
+  },
+  {
+    "question": "What makes your product better than competitors?",
+    "answer": "Our product combines AI automation, human support tools, and easy integrations in one unified platform. Unlike many competitors, we focus on reducing operational load by automating repetitive questions while preserving human oversight. We also provide real-time analytics, voice input, and customizable workflows to match your business needs. Continuous updates ensure the platform remains modern, scalable, and secure.",
+    "tags": ["sales", "comparison", "value"]
+  },
+
+  {
+    "question": "How can your platform help improve our marketing performance?",
+    "answer": "Our platform gathers customer questions and behavior insights to identify trends and interests. These insights help marketing teams understand what customers care about most and tailor campaigns accordingly. Additionally, automated FAQs reduce friction during customer decision-making, improving conversion rates. We also support integrations with CRM and email marketing tools to streamline your outreach.",
+    "tags": ["marketing", "analytics", "performance"]
+  },
+  {
+    "question": "Do you provide tools for lead generation?",
+    "answer": "Yes, we offer several features designed to support lead capture and qualification. Automated responses guide customers through their questions and encourage sign-ups or product interest. Our analytics identify high-intent users, helping your marketing and sales teams prioritize leads. You can also integrate with third-party CRM tools to track and nurture prospects.",
+    "tags": ["marketing", "leads", "sales"]
+  },
+  {
+    "question": "Can I track customer engagement with campaigns?",
+    "answer": "Absolutely — our system provides engagement metrics, including click tracking, FAQ popularity, and conversion stages. These insights allow marketing teams to understand what content resonates best with audiences. Over time, the data helps refine messaging, improve targeting, and increase campaign effectiveness. You can export the analytics for reporting or integrate them with your existing dashboards.",
+    "tags": ["marketing", "campaigns", "analytics"]
+  },
+
+  {
+    "question": "How do I reset my password?",
+    "answer": "To reset your password, simply click on the 'Forgot Password' option on the login screen. You will receive an email with instructions to create a new password securely. If the email does not appear, check your spam folder or try again after a few minutes. For continued issues, you may contact support for manual assistance or escalation.",
+    "tags": ["support", "account", "password"]
+  },
+  {
+    "question": "How do I update my email address?",
+    "answer": "You can update your email address by going to the Account Settings page and selecting the Email section. After entering your new email, you will need to verify it through a confirmation link. This helps ensure that your account remains secure and accessible only to you. Contact support if you encounter any verification issues.",
+    "tags": ["support", "account", "email"]
+  },
+  {
+    "question": "How can I escalate a complex issue?",
+    "answer": "If your issue cannot be resolved through the FAQ or standard support process, you can request an escalation. Escalated tickets are prioritized and reviewed by senior support specialists. Provide as much detail as possible to help the team diagnose the problem efficiently. You may also upload files or screenshots to support your request.",
+    "tags": ["support", "escalation", "help"]
+  },
+
+ 
+  {
+    "question": "Why is the app not loading?",
+    "answer": "The app may fail to load due to poor internet connectivity, outdated browser settings, or temporary server issues. Try refreshing the page or switching to a different browser to rule out compatibility problems. Clearing your cache often resolves performance-related errors as well. If the problem continues, escalate it to support with a screenshot for further analysis.",
+    "tags": ["technical", "loading", "app"]
+  },
+  {
+    "question": "Why am I seeing a network error?",
+    "answer": "A network error typically indicates unstable connectivity or blocked access from your network provider. Restarting your router or switching to mobile data can help identify whether the issue is local. Sometimes corporate firewalls may restrict certain functions, so contacting your network administrator may be necessary. If the issue persists, provide the error code to support for deeper investigation.",
+    "tags": ["technical", "network", "errors"]
+  },
+  {
+    "question": "Does this system work offline?",
+    "answer": "Most features require an active internet connection because the platform relies on cloud-based processing. Some components, such as cached answers or stored preferences, may continue working offline temporarily. However, real-time search and AI responses require connectivity. For long-term offline functionality, consider enabling downloadable modules or contact support for specialized solutions.",
+    "tags": ["technical", "offline"]
+  },
+
+
+  {
+    "question": "What is your refund policy?",
+    "answer": "Customers may request refunds within seven days of purchase for most plans. Refunds are typically processed within three to five business days depending on the payment method. If there are technical issues preventing use of the platform, we prioritize such refund requests. Our billing team may request additional details to ensure proper handling.",
+    "tags": ["billing", "refund", "policy"]
+  },
+  {
+    "question": "Why was my payment declined?",
+    "answer": "Payment failures often occur due to incorrect card details, insufficient balance, or bank restrictions. It is recommended to verify your payment information and try again. Some banks block online transactions for security reasons, so contacting your bank may help. If the issue continues, you may use an alternate payment method or contact billing support.",
+    "tags": ["billing", "payment", "errors"]
+  },
+  {
+    "question": "Do you offer subscription changes or upgrades?",
+    "answer": "Yes, you can upgrade or downgrade your subscription at any time from the Billing section of your account. When upgrading, the cost difference is calculated automatically based on your remaining billing cycle. Downgrades take effect in the next cycle to avoid service disruption. If you need help choosing the right plan, our team can guide you.",
+    "tags": ["billing", "subscription", "plans"]
+  }
+
+]
