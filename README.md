@@ -12,7 +12,7 @@ Confidence scoring
 
 Auto-increment question popularity
 
-## 🗂️ Category Tabs
+##   🗂️ Category Tabs
 
 Sales
 
@@ -34,19 +34,19 @@ Speech-to-text auto-fills query
 
 Works on Chrome using Web Speech API
 
-##⚠️ Auto-Escalation
+##  ⚠️ Auto-Escalation
 
 Low-confidence answers automatically saved to
 
 /data/escalations.json
 
-##📊 Most Asked Questions
+## 📊 Most Asked Questions
 
 Automatically stored & updated in:
 
 /data/top_counts.json
 
-##📁 JSON Knowledge Base
+## 📁 JSON Knowledge Base
 
 All FAQs stored in:
 
@@ -59,7 +59,7 @@ Easy to edit, expand, or integrate with CRM tools.
 
 Instantly copy any response with one click.
 ##
-##⚙️ Installation
+## ⚙️ Installation
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
