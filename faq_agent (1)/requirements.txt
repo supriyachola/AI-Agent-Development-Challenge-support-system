@@ -1,1 +1,6 @@
-streamlit
+# minimal safe requirements for the FAQ app
+streamlit>=1.22.0
+markupsafe>=2.1.0
+# JSON and stdlib used - no need to list
+# optional utilities you might use (safe)
+requests>=2.28.0
